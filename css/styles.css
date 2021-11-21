@@ -774,6 +774,7 @@ url("../images/hero-bg.jpg");
 
 .contact-form-input:focus {
     outline: none;
+    color: rgba(255, 255, 255, 0.6);
     border-color: var(--accent-color);
 }
 
@@ -952,7 +953,7 @@ url("../images/hero-bg.jpg");
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 10px;
+    font-size: 16px;
 }
 
 
@@ -978,6 +979,7 @@ url("../images/hero-bg.jpg");
 .comments-form::placeholder {
     font-size: 14px;
     line-height: 1.14;
+
     letter-spacing: 0.01em;
     color: rgba(117, 117, 117, 0.5);
 }
@@ -989,6 +991,7 @@ url("../images/hero-bg.jpg");
     left: 12px;
     width: 18px;
     height: 18px;
+    
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -1009,6 +1012,7 @@ url("../images/hero-bg.jpg");
 
 .modal-check-link {
     text-decoration: underline;
+    color: var(--accent-color);
 }
 
 
